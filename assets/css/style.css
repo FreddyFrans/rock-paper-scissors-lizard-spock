@@ -7,7 +7,14 @@
 section {
     height: 100%;
     background-color: #FF6F61;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+
 }
 
 .points {
@@ -16,4 +23,20 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.points h2 {
+    font-size: 25px;
+
+}
+
+.points p {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.intro {
+    Text-align: center;
+    padding: 10px;
 }
