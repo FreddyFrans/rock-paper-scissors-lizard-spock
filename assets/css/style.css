@@ -21,22 +21,52 @@ section {
     color: black;
     height: 20vh;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+
 }
 
 .points h2 {
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
 .points p {
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
+
+    font-size: 25px;
 }
 
-.intro {
+.player-points {
+    text-align: center;
+    font-size: 15px;
+}
+
+.start {
     Text-align: center;
-    padding: 10px;
+    padding: 30px;
+}
+
+.start button,
+.options button {
+    width: 140px;
+    height: 60px;
+    background: none;
+    color: white;
+    background-color: darkgreen;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+.options,
+.hands {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.player {
+    transform: rotateY(180deg);
 }
