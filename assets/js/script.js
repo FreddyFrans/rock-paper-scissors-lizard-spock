@@ -61,7 +61,7 @@ const game = () => {
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
-		else if(player == 'scissors'){
+		else if(player == 'scissor'){
 			if(computer == 'rock'){
 				result.textContent = 'Computer Won';
 				computerScore++;
@@ -73,7 +73,7 @@ const game = () => {
 			}
 		}
 		else if(player == 'paper'){
-			if(computer == 'scissors'){
+			if(computer == 'scissor'){
 				result.textContent = 'Computer Won';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;

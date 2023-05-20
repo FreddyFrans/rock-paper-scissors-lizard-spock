@@ -4,8 +4,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	background: #A28089;
-	color: #000000;
+	background: #000000;
+	color: #ffffff;
     font-family:Helvetica, sans-serif;
 }
 /* To center everything in game */
@@ -54,13 +54,13 @@
 
 /* Styling on all three buttons */
 .rock, .paper, .scissor{
-	padding: 0.8rem;
-	width: 50px;
-	border-radius: 20px;
-	background:#A28089;
+	
+	
+	
+	background:#000000;
 	outline: none;
-	border-color:#A28089;
-	border: none;
+	border-color:#000000;
+	border-bottom: none;
 	cursor: pointer;
 }
 
