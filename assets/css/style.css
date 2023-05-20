@@ -5,9 +5,11 @@
 	margin: 0;
 	box-sizing: border-box;
 	background: #A28089;
-	color: #fff;
+	color: #000000;
+    font-family:Helvetica, sans-serif;
 }
 /* To center everything in game */
+
 .game{
 	display: flex;
 	flex-direction: column;
@@ -53,7 +55,7 @@
 /* Styling on all three buttons */
 .rock, .paper, .scissor{
 	padding: 0.8rem;
-	width: 100px;
+	width: 50px;
 	border-radius: 20px;
 	background:#A28089;
 	outline: none;
