@@ -1,72 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* styles.css */
+/* universal selector - Applies to whole document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: #082c6c;
+	color: #fff;
+}
+/* To center everything in game */
+.game{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
 }
 
-section {
-    height: 100%;
-    background-color: #FF6F61;
-    font-family: Helvetica, sans-serif;
+/* Title of the game */
+.title{
+	position: absolute;
+	top: 0;
+	font-size: 4rem;
+	z-index: 2;
 }
 
-.title {
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 35px;
-
+/* Score Board */
+.score{
+	display: flex;
+	width: 30vw;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 70px;
+	z-index: 1;
 }
 
-.points {
-    color: black;
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+/* Score */
+.p-count,.c-count{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 1rem;
 }
 
-.points h2 {
-    font-size: 30px;
-
+/* displaying three buttons in one line */
+.options{
+	display: flex;
+	width: 50vw;
+	justify-content: space-evenly;
+	margin-top: 2rem;
 }
 
-.points p {
-    text-align: center;
-
-    font-size: 25px;
+/* Styling on all three buttons */
+.rock, .paper, .scissor{
+	padding: 0.8rem;
+	width: 100px;
+	border-radius: 10px;
+	background: green;
+	outline: none;
+	border-color: green;
+	border: none;
+	cursor: pointer;
 }
 
-.player-points {
-    text-align: center;
-    font-size: 15px;
+.move{
+	font-size: 2rem;
+	font-weight: bold;
 }
 
-.start {
-    Text-align: center;
-    padding: 30px;
+/* Reload button style */
+.reload {
+	display: none;
+	margin-top: 2rem;
+	padding: 1rem;
+	background: green;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
 }
 
-.start button,
-.options button {
-    width: 140px;
-    height: 60px;
-    background: none;
-    color: white;
-    background-color: darkgreen;
-    font-size: 20px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-}
-
-
-.options,
-.hands {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.player {
-    transform: rotateY(180deg);
+.result{
+	margin-top: 20px;
+	font-size: 1.2rem;
 }

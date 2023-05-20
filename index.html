@@ -3,53 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>Document</title>
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Rock Paper Scissor</title>
 </head>
 
 <body>
-    <!--The game is in this section -->
+    
     <section class="game">
-        <div class="title">
-            <h1>Rock, Paper & Scissors</h1>
-        </div>
-        <!--Here is the scoreboard for player and computer-->
-        <div class="points">
-            <div class="player-points">
-                <h2>Player <i class="fa-solid fa-face-laugh-beam" style="color: #000000;"></i></h2>
-                <p>0</p>
+        <!--Title -->
+        <div class="title">Rock Paper Scissor</div>
+          
+          <!--Display Score of player and computer -->
+        <div class="score">  
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+  
+            </div>       
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+  
             </div>
-            <div class=computer-points>
-                <h2>Computer <i class="fa-solid fa-robot" style="color: #000000;"></i></h2>
-                <p>0</p>
-            </div>
         </div>
-        <!--Images for the game and structure, credit to Simo Edwin from Youtube and Github -->
-        <div class="start">
-            <h2>Get Ready</h2>
-            <button>Let's do this</button>
-        </div>
-        <div class="play">
-            <h2 class="winner">Wait and see</h2>
-        </div>
-        <div class="hands">
-            <img class="player" src="./assets/images/rock.png" alt="">
-            <img class="computer" src="./assets/images/rock.png" alt="">
-        </div>
+        
+        <div class="move">Choose your move</div>
+          
+          <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+          
+          <!--Options available to player to play game -->
         <div class="options">
-            <button class="rock">rock</button>
-            <button class="paper">paper</button>
-            <button class="scissors">scissors</button>
+            <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>    
         </div>
-
+          
+          <!--Final result of game -->
+        <div class="result"></div>
+          
+          <!--Reload the game -->
+        <button class="reload"></button>
+  
     </section>
-    <!--Font Awesome for player and computer-->
-    <script src="https://kit.fontawesome.com/ab2fae3edc.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-
+  
+    <script src="app.js"></script>
 </body>
 
 </html>
