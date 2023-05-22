@@ -7,7 +7,7 @@
 	color: #fff;
 	
 }
-/* To center everything in game */
+/* To center the game */
 
 .game{
 	display: flex;
@@ -57,7 +57,7 @@ padding-top:10px;
 	display: flex;
 	width: 50vw;
 	justify-content: space-evenly;
-	margin-top: 2rem;
+	margin-top: 5px;
 }
 
 .image {
@@ -84,7 +84,7 @@ display: flex;
 	font-weight: bold;
 }
 
-/* Reload button style */
+/* Reload button */
 .reload {
 	display: none;
 	margin-top: 2rem;
@@ -97,7 +97,7 @@ display: flex;
 }
 
 .result{
-	margin-top: 20px;
+	margin-top: 5px;
 	font-size: 1.2rem;
 }
 
@@ -115,7 +115,16 @@ display: flex;
 	
 	.options{
 		width: 100%;
-		padding-top:30%;
+		padding-top:5%;
 	
+	}
+	.playerScore, .computerScore{
+		padding-top: 100px;
+	}
+	.movesleft {
+		padding-top:5%;
+	}
+	.move {
+		padding-bottom:5%;
 	}
 } 
