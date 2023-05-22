@@ -125,6 +125,6 @@ display: flex;
 		padding-top:5%;
 	}
 	.move {
-		padding-bottom:5%;
+		padding-bottom:5px;
 	}
 } 

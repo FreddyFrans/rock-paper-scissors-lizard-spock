@@ -1,6 +1,5 @@
-// app.js
-
-// Complete logic of game inside this function
+// Big shoutout and and credit to pritishnagpal www.geeksforgeeks.org
+//game code
 const game = () => {
 	let playerScore = 0;
 	let computerScore = 0;
@@ -15,7 +14,7 @@ const game = () => {
 		const playerOptions = [rockBtn,paperBtn,scissorBtn];
 		const computerOptions = ['rock','paper','scissors'];
 		
-		// Function to start playing game
+		// Start playing game
 		playerOptions.forEach(option => {
 			option.addEventListener('click',function(){
 
@@ -27,10 +26,10 @@ const game = () => {
 				const choiceNumber = Math.floor(Math.random()*3);
 				const computerChoice = computerOptions[choiceNumber];
 
-				// Function to check who wins
+				// check who wins
 				winner(this.innerText,computerChoice);
 				
-				// Calling gameOver function after 5 moves
+				// gameOver function after 5 moves
 				if(moves == 5){
 					gameOver(playerOptions,movesLeft);
 				}
@@ -123,7 +122,7 @@ const game = () => {
 	};
 
 
-	// Calling playGame function inside game
+	// playGame function inside game
 	playGame();
 	
 };
