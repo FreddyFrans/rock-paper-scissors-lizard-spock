@@ -1,5 +1,4 @@
-/* styles.css */
-/* universal selector - Applies to whole document */
+/* Big shoutout and credit to pritishnagpal www.geeksforgeeks.org for html, css and javascript codes*/ 
 *{
 	padding: 0;
 	margin: 0;
@@ -62,7 +61,7 @@ display: flex;
 
 .rock, .paper, .scissor{
 	padding: 0.8rem;
-	width: 100px;
+	width: 130px;
 	border-radius: 10px;
 	background: rgba(4, 78, 90, 0.57);
 	outline: none;
@@ -81,7 +80,7 @@ display: flex;
 	display: none;
 	margin-top: 2rem;
 	padding: 1rem;
-	background: green;
+	background: rgb(29, 197, 29);
 	outline: none;
 	border: none;
 	border-radius: 10px;
@@ -93,7 +92,7 @@ display: flex;
 	font-size: 1.2rem;
 }
 
-/* Responsive Design */
+/* media query */
 @media screen and (max-width: 612px)
 {
 	.title{
@@ -102,9 +101,11 @@ display: flex;
 	.score{
 		position: absolute;
 		top: 200px;
-		width: 100vw;
+		width: 100%;
 	}
 	.options{
-		width: 100vw;
+		width: 100%;
+		padding-top:30%;
+		
 	}
 }

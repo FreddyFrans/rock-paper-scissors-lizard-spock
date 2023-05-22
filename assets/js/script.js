@@ -13,7 +13,7 @@ const game = () => {
 		const paperBtn = document.querySelector('.paper');
 		const scissorBtn = document.querySelector('.scissor');
 		const playerOptions = [rockBtn,paperBtn,scissorBtn];
-		const computerOptions = ['rock','paper','scissors']
+		const computerOptions = ['rock','paper','scissors'];
 		
 		// Function to start playing game
 		playerOptions.forEach(option => {
@@ -28,16 +28,16 @@ const game = () => {
 				const computerChoice = computerOptions[choiceNumber];
 
 				// Function to check who wins
-				winner(this.innerText,computerChoice)
+				winner(this.innerText,computerChoice);
 				
 				// Calling gameOver function after 10 moves
 				if(moves == 10){
 					gameOver(playerOptions,movesLeft);
 				}
-			})
-		})
+			});
+		});
 		
-	}
+	};
 
 	// Function to decide winner
 	const winner = (player,computer) => {
@@ -47,7 +47,7 @@ const game = () => {
 		player = player.toLowerCase();
 		computer = computer.toLowerCase();
 		if(player === computer){
-			result.textContent = 'Tie'
+			result.textContent = 'Tie';
 		}
 		else if(player == 'rock'){
 			if(computer == 'paper'){
@@ -56,7 +56,7 @@ const game = () => {
 				computerScoreBoard.textContent = computerScore;
 
 			}else{
-				result.textContent = 'Player Won'
+				result.textContent = 'Player Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
@@ -83,7 +83,7 @@ const game = () => {
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
-	}
+	};
 
 	// Function to run when game is over
 	const gameOver = (playerOptions,movesLeft) => {
@@ -94,15 +94,15 @@ const game = () => {
 
 		playerOptions.forEach(option => {
 			option.style.display = 'none';
-		})
+		});
 
 	
-		chooseMove.innerText = 'Game Over!!'
+		chooseMove.innerText = 'Game Over!!';
 		movesLeft.style.display = 'none';
 
 		if(playerScore > computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'You Won The Game'
+			result.innerText = 'You Won The Game';
 			result.style.color = '#308D46';
 		}
 		else if(playerScore < computerScore){
@@ -113,20 +113,21 @@ const game = () => {
 		else{
 			result.style.fontSize = '2rem';
 			result.innerText = 'Tie';
-			result.style.color = 'grey'
+			result.style.color = 'grey';
 		}
 		reloadBtn.innerText = 'Restart';
-		reloadBtn.style.display = 'flex'
+		reloadBtn.style.display = 'flex';
 		reloadBtn.addEventListener('click',() => {
 			window.location.reload();
-		})
-	}
+		});
+	};
 
 
 	// Calling playGame function inside game
 	playGame();
 	
-}
+};
 
 // Calling the game function
+
 game();
