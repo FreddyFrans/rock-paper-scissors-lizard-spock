@@ -80,7 +80,7 @@ display: flex;
 	display: none;
 	margin-top: 2rem;
 	padding: 1rem;
-	background: rgb(29, 197, 29);
+	background: rgba(4, 78, 90, 0.57);
 	outline: none;
 	border: none;
 	border-radius: 10px;
@@ -100,12 +100,16 @@ display: flex;
 	}
 	.score{
 		position: absolute;
-		top: 200px;
+		padding-top:30%;
 		width: 100%;
 	}
 	.options{
 		width: 100%;
 		padding-top:30%;
+		
+	}
+	.move {
+		
 		
 	}
 }

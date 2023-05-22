@@ -21,7 +21,7 @@ const game = () => {
 
 				const movesLeft = document.querySelector('.movesleft');
 				moves++;
-				movesLeft.innerText = `Moves Left: ${10-moves}`;
+				movesLeft.innerText = `Moves Left: ${5-moves}`;
 				
 
 				const choiceNumber = Math.floor(Math.random()*3);
@@ -30,8 +30,8 @@ const game = () => {
 				// Function to check who wins
 				winner(this.innerText,computerChoice);
 				
-				// Calling gameOver function after 10 moves
-				if(moves == 10){
+				// Calling gameOver function after 5 moves
+				if(moves == 5){
 					gameOver(playerOptions,movesLeft);
 				}
 			});
@@ -113,7 +113,7 @@ const game = () => {
 		else{
 			result.style.fontSize = '2rem';
 			result.innerText = 'Tie';
-			result.style.color = 'grey';
+			result.style.color = 'white';
 		}
 		reloadBtn.innerText = 'Restart';
 		reloadBtn.style.display = 'flex';
