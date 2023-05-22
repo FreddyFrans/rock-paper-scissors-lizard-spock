@@ -12,7 +12,7 @@
 .game{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height:800px;
 	width: 100vw;
 	justify-content: center;
 	align-items: center;
@@ -24,6 +24,7 @@
 	top: 0;
 	font-size: 4rem;
 	z-index: 2;
+	
 }
 
 /* Score Board */
@@ -34,6 +35,14 @@
 	position: absolute;
 	top: 70px;
 	z-index: 1;
+	
+}
+.playerScore {
+padding-top:10px;
+}
+
+.computerScore {
+	padding-top:10px;
 }
 
 /* Score */
@@ -97,19 +106,16 @@ display: flex;
 {
 	.title{
 		text-align: center;
+		
 	}
 	.score{
-		position: absolute;
-		padding-top:30%;
-		width: 100%;
+		 position: absolute;
+		 width: 100%;
 	}
+	
 	.options{
 		width: 100%;
 		padding-top:30%;
-		
+	
 	}
-	.move {
-		
-		
-	}
-}
+} 
