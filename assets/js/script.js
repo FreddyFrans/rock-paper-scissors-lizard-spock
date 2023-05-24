@@ -46,38 +46,38 @@ const game = () => {
 		player = player.toLowerCase();
 		computer = computer.toLowerCase();
 		if(player === computer){
-			result.textContent = 'Tie';
+			result.textContent = 'Draw';
 		}
 		else if(player == 'rock'){
 			if(computer == 'paper'){
-				result.textContent = 'Computer Won';
+				result.textContent = 'You Lost';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 
 			}else{
-				result.textContent = 'Player Won';
+				result.textContent = 'You Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
 		else if(player == 'scissors'){
 			if(computer == 'rock'){
-				result.textContent = 'Computer Won';
+				result.textContent = 'You Lost';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			}else{
-				result.textContent = 'Player Won';
+				result.textContent = 'You Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
 		else if(player == 'paper'){
 			if(computer == 'scissors'){
-				result.textContent = 'Computer Won';
+				result.textContent = 'You Lost';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			}else{
-				result.textContent = 'Player Won';
+				result.textContent = 'You Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
@@ -96,25 +96,25 @@ const game = () => {
 		});
 
 	
-		chooseMove.innerText = 'Game Over!!';
+		chooseMove.innerText = 'Game Over!';
 		movesLeft.style.display = 'none';
 
 		if(playerScore > computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'You Won The Game';
+			result.innerText = 'Woho, You Won';
 			result.style.color = '#308D46';
 		}
 		else if(playerScore < computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'You Lost The Game';
+			result.innerText = 'Sorry, You Lost';
 			result.style.color = 'red';
 		}
 		else{
 			result.style.fontSize = '2rem';
-			result.innerText = 'Tie';
+			result.innerText = 'Draw';
 			result.style.color = 'white';
 		}
-		reloadBtn.innerText = 'Restart';
+		reloadBtn.innerText = 'Again!';
 		reloadBtn.style.display = 'flex';
 		reloadBtn.addEventListener('click',() => {
 			window.location.reload();
