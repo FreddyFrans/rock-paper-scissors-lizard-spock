@@ -96,7 +96,7 @@ const game = () => {
 		});
 
 	
-		chooseMove.innerText = 'Game Over!';
+		chooseMove.innerText = 'RESULT!';
 		movesLeft.style.display = 'none';
 
 		if(playerScore > computerScore){
