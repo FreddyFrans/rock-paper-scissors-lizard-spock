@@ -74,7 +74,6 @@ display: flex;
 	border-radius: 10px;
 	background: rgba(4, 78, 90, 0.57);
 	outline: none;
-	border-color: rgba(4, 78, 90, 0.57);
 	border: none;
 	cursor: pointer;
 }
@@ -101,7 +100,7 @@ display: flex;
 	font-size: 1.2rem;
 }
 
-/* media query */
+/* media query max width of 612px */
 @media screen and (max-width: 612px)
 {
 	.title{

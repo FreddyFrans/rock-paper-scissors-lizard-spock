@@ -1,4 +1,4 @@
-// Big shoutout and and credit to pritishnagpal www.geeksforgeeks.org
+// Big shoutout and and credit to pritishnagpal at www.geeksforgeeks.org for the code
 //game code
 const game = () => {
 	let playerScore = 0;
