@@ -51,34 +51,35 @@ const game = () => {
 		}
 		else if(player == 'rock'){
 			if(computer == 'paper'){
-				result.textContent = 'You Lost';
+				result.textContent = 'Ohhh! Computer Chose Paper';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
+				
 
 			}else{
-				result.textContent = 'You Won';
+				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
 		else if(player == 'scissors'){
 			if(computer == 'rock'){
-				result.textContent = 'You Lost';
+				result.textContent = 'Ohhh! Computer Chose Rock';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			}else{
-				result.textContent = 'You Won';
+				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
 		else if(player == 'paper'){
 			if(computer == 'scissors'){
-				result.textContent = 'You Lost';
+				result.textContent = ' Ohhh! Computer Chose Scissors';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			}else{
-				result.textContent = 'You Won';
+				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
@@ -102,12 +103,12 @@ const game = () => {
 
 		if(playerScore > computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'Woho, You Won';
+			result.innerText = 'Woho, You Are The Champion!';
 			result.style.color = '#308D46';
 		}
 		else if(playerScore < computerScore){
 			result.style.fontSize = '2rem';
-			result.innerText = 'Sorry, You Lost';
+			result.innerText = 'Sorry, Better Luck Next Time';
 			result.style.color = 'red';
 		}
 		else{
