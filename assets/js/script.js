@@ -11,9 +11,11 @@ const game = () => {
 	const playGame = () => {
 		const rockBtn = document.querySelector('.rock');
 		const paperBtn = document.querySelector('.paper');
-		const scissorBtn = document.querySelector('.scissor');
-		const playerOptions = [rockBtn,paperBtn,scissorBtn];
-		const computerOptions = ['rock','paper','scissors'];
+		const scissorsBtn = document.querySelector('.scissors');
+		const lizardBtn = document.querySelector('.lizard');
+		const spockBtn = document.querySelector('.spock');
+		const playerOptions = [rockBtn,paperBtn,scissorsBtn,lizardBtn,spockBtn];
+		const computerOptions = ['rock','paper','scissors','lizard','spock'];
 		
 		// Start playing game
 		playerOptions.forEach(option => {
@@ -24,7 +26,7 @@ const game = () => {
 				movesLeft.innerText = `Moves Left: ${5-moves}`;
 				
 
-				const choiceNumber = Math.floor(Math.random()*3);
+				const choiceNumber = Math.floor(Math.random()*5);
 				const computerChoice = computerOptions[choiceNumber];
 
 				// check who wins
@@ -54,8 +56,8 @@ const game = () => {
 				result.textContent = 'Ohhh! Computer Chose Paper';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
-				
-
+			
+			
 			}else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
@@ -75,7 +77,84 @@ const game = () => {
 		}
 		else if(player == 'paper'){
 			if(computer == 'scissors'){
-				result.textContent = ' Ohhh! Computer Chose Scissors';
+				result.textContent = 'Ohhh! Computer Chose Scissors';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'lizard'){
+			if(computer == 'rock'){
+				result.textContent = 'Ohhh! Computer Chose Rock';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'spock'){
+			if(computer == 'lizard'){
+				result.textContent = 'Ohhh! Computer Chose Lizard';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'scissors'){
+			if(computer == 'spock'){
+				result.textContent = 'Ohhh! Computer Chose Spock';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'lizard'){
+			if(computer == 'scissors'){
+				result.textContent = 'Ohhh! Computer Chose Scissors';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'paper'){
+			if(computer == 'lizard'){
+				result.textContent = 'Ohhh! Computer Chose Lizard';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'spock'){
+			if(computer == 'paper'){
+				result.textContent = 'Ohhh! Computer Chose Paper';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}else{
+				result.textContent = 'Yeay! You Won!';
+				playerScore++;
+				playerScoreBoard.textContent = playerScore;
+			}
+		}
+		else if(player == 'rock'){
+			if(computer == 'spock'){
+				result.textContent = 'Ohhh! Computer Chose Spock';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			}else{
