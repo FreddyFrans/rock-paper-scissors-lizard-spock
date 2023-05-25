@@ -15,7 +15,7 @@ const game = () => {
 		const lizardBtn = document.querySelector('.lizard');
 		const spockBtn = document.querySelector('.spock');
 		const playerOptions = [rockBtn,paperBtn,scissorsBtn,lizardBtn,spockBtn];
-		const computerOptions = ['rock','paper','scissors','lizard','spock'];
+		const computerOptions = ['rock','paper','scissors','lizard','spock',];
 		
 		// Start playing game
 		playerOptions.forEach(option => {
@@ -26,13 +26,13 @@ const game = () => {
 				movesLeft.innerText = `Moves Left: ${5-moves}`;
 				
 
-				const choiceNumber = Math.floor(Math.random()*5);
+				const choiceNumber = Math.floor(Math.random()*5+1);
 				const computerChoice = computerOptions[choiceNumber];
 
 				// check who wins
 				winner(this.innerText,computerChoice);
 				
-				// gameOver function after 5 moves
+				// gameOver after 5 moves
 				if(moves == 5){
 					gameOver(playerOptions,movesLeft);
 				}
@@ -46,8 +46,9 @@ const game = () => {
 		const result = document.querySelector('.result');
 		const playerScoreBoard = document.querySelector('.p-count');
 		const computerScoreBoard = document.querySelector('.c-count');
-		player = player.toLowerCase();
-		computer = computer.toLowerCase();
+		computer = computer.toLowerCase()
+		player = player.toLowerCase()
+		
 		if(player === computer){
 			result.textContent = 'Draw';
 		}
@@ -203,11 +204,11 @@ const game = () => {
 	};
 
 
-	// playGame function inside game
+	// Function inside game
 	playGame();
 	
 };
 
-// Calling the game function
+// Calling the game 
 
 game();
