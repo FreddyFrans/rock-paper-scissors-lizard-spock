@@ -1,53 +1,54 @@
 
 // Big shoutout and and credit to pritishnagpal at www.geeksforgeeks.org for the code
 //game code
-const game = () => {
+let game = () => {
 	let playerScore = 0;
 	let computerScore = 0;
 	let moves = 0;
 
 
 	// Function to
-	const playGame = () => {
-		const rockBtn = document.querySelector('.rock');
-		const paperBtn = document.querySelector('.paper');
-		const scissorsBtn = document.querySelector('.scissors');
-		const lizardBtn = document.querySelector('.lizard');
-		const spockBtn = document.querySelector('.spock');
-		const playerOptions = [rockBtn,paperBtn,scissorsBtn,lizardBtn,spockBtn];
-		const computerOptions = ['rock','paper','scissors','lizard','spock',];
+	let playGame = () => {
+		let rockBtn = document.querySelector('.rock');
+		let paperBtn = document.querySelector('.paper');
+		let scissorsBtn = document.querySelector('.scissors');
+		let lizardBtn = document.querySelector('.lizard');
+		let spockBtn = document.querySelector('.spock');
+		let playerOptions = [rockBtn,paperBtn,scissorsBtn,lizardBtn,spockBtn];
+		let computerOptions = ['rock','paper','scissors','lizard','spock'];
 		
 		// Start playing game
 		playerOptions.forEach(option => {
 			option.addEventListener('click',function(){
 
-				const movesLeft = document.querySelector('.movesleft');
+				let movesLeft = document.querySelector('.movesleft');
 				moves++;
 				movesLeft.innerText = `Moves Left: ${5-moves}`;
 				
 
-				const choiceNumber = Math.floor(Math.random()*5+1);
-				const computerChoice = computerOptions[choiceNumber];
+				const choiceNumber = Math.floor(Math.random()*5);
+				let computerChoice = computerOptions[choiceNumber];
 
 				// check who wins
-				winner(this.innerText,computerChoice);
+			 winner(this.innerText,computerChoice)
 				
 				// gameOver after 5 moves
 				if(moves == 5){
 					gameOver(playerOptions,movesLeft);
 				}
-			});
+			})
 		});
 		
-	};
+	}
 
 	// Function to decide winner
-	const winner = (player,computer) => {
-		const result = document.querySelector('.result');
-		const playerScoreBoard = document.querySelector('.p-count');
-		const computerScoreBoard = document.querySelector('.c-count');
-		computer = computer.toLowerCase()
-		player = player.toLowerCase()
+	let winner = (player,computer) => {
+		let result = document.querySelector('.result');
+		let playerScoreBoard = document.querySelector('.p-count');
+		let computerScoreBoard = document.querySelector('.c-count');
+		player = player.toLowerCase();
+		computer = computer.toLowerCase();
+		
 		
 		if(player === computer){
 			result.textContent = 'Draw';
@@ -167,11 +168,11 @@ const game = () => {
 	};
 
 	// Game over function
-	const gameOver = (playerOptions,movesLeft) => {
+	let gameOver = (playerOptions,movesLeft) => {
 
-		const chooseMove = document.querySelector('.move');
-		const result = document.querySelector('.result');
-		const reloadBtn = document.querySelector('.reload');
+		let chooseMove = document.querySelector('.move');
+		let result = document.querySelector('.result');
+		let reloadBtn = document.querySelector('.reload');
 
 		playerOptions.forEach(option => {
 			option.style.display = 'none';
