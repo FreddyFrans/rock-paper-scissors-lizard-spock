@@ -165,7 +165,7 @@ const game = () => {
 		}
 	};
 
-	// Function to run when game is over
+	// Game over function
 	const gameOver = (playerOptions,movesLeft) => {
 
 		const chooseMove = document.querySelector('.move');
@@ -178,7 +178,7 @@ const game = () => {
 
 	
 		chooseMove.innerText = 'RESULT!';
-		movesLeft.style.display = 'none';
+		movesLeft.style.display = 'inherit';
 
 		if(playerScore > computerScore){
 			result.style.fontSize = '2rem';
