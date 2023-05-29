@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors, Lizard & Spock
- ## Foreword
+ ## Preface
  I took on this challenge with no JavaScript knowledge what so ever. Before the visitor try this game I want to give the credit to pritishnagpal at www.geeksforgeeks.org who gave me some more insight into how the structure of Javascript works.
  So thank you very much pritishnagpal!
  ## The Game
@@ -71,9 +71,12 @@
 4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 ![Deployment](./readme.images/deployment.png)
 ## Credits
-- The game layout comes from pritishnagpal at www.geeksforgeeks.org
-- Game roules comes from [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
-- Player vs Computer icons comes from [Font Awesome](https://fontawesome.com/)
+  - ### Content
+    - The game layout comes from pritishnagpal at www.geeksforgeeks.org
+  - ### Rules
+    - Game roules comes from [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+  - ### Icons
+    - Player vs Computer icons comes from [Font Awesome](https://fontawesome.com/)
 ## General problem solving credits
 - [www.w3schools.com](https://www.w3schools.com/)
 - [www.stackoverflow.com](https://stackoverflow.com/)
