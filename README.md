@@ -41,7 +41,7 @@
 * ### Images and Layout
   - Experiment with other color combinations and layouts in the game, such as, for example, images on the buttons instead of text and fireworks when the player won the game.
 ## Testing
-  - The game is structured in such a way that you cannot imput emty or invalid data. all to give the user the maximum gaming experience
+  - The game is structured in such a way that you cannot imput emty or invalid data. all to give the user the maximum gaming experience.
   - I have had six people test the functions on the website where all of them uses different types of cellphones, all of them gave the site good feedback. No bugs were found when the people carried out the tests.
  - ### Errors 
    - I had a lot of problem with Codeanywhere, i had to go back to Gitpod 
