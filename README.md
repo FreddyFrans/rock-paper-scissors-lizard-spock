@@ -85,7 +85,7 @@
 - [www.codeinstitute.net](https://codeinstitute.net/se/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=635849372549&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=Cj0KCQjwmtGjBhDhARIsAEqfDEcSTRmuJ8L_geht9gBSV55XwEgD5x7EYk0FVLy0ubneZrZtuTHDk_oaAlHfEALw_wcB)
 - [www.slack.com](https://slack.com/trials?remote_promo=f4d95f0b&d=7013y000002pzFpAAI&nc=7013y000002pzo3AAA&utm_source=google&utm_medium=paid_search&utm_campaign=ppc_google_emea_se_en_brand_selfserve_discount&utm_content=slack-pg-ss-all-nl-brand_7013y000002pzFpAAI&utm_term=slack_exact_._slack_._e_._c_._659186599814&gad=1&gclid=Cj0KCQjwmtGjBhDhARIsAEqfDEcmhiPHjBkN80_zTJw0oYrcUQsh0VfKWX4gBkDDDSuyhTknxpZlTaIaAvSSEALw_wcB&gclsrc=aw.ds)
 ## Acknowledgements
- - The site was completed as a Portfolio 2 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute.
+ ### The site was completed as a Portfolio 2 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute.
    - I would like to thank Cohort Facilitator Alan Bushell, at Code Institute for the support in this project.
    - Big thanks to my classmate Frank Arellano for code troubleshooting.
    - Last but not least, pritishnagpal at www.geeksforgeeks.org who has given me more insight in JavaScript. Thank you!
