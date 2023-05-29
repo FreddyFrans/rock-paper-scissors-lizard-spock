@@ -18,7 +18,9 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Features
-
+- ### Colour Scheme
+   - I chose this colorcombination to get a more playful experience.
+![color Scheme](./readme.images/color-scheme.png)
 - ### Heading and Score
   - Here you can see Rock, Paper, Scissors, Lizard and Spock heading. Player and Computer with each font awesome image icons to make it more fun. Under the player and computer you can se the scoreboard.
 ![Heading and Player](./readme.images/scoreboard.png)
@@ -39,9 +41,13 @@
 * ### Images and Layout
   - Experiment with other color combinations and layouts in the game, such as, for example, images on the buttons instead of text and fireworks when the player won the game.
 ## Testing
+  - The game is structured in such a way that you cannot imput emty or invalid data. all to give the user the maximum gaming experience
+  - I have had six people test the functions on the website where all of them uses different types of cellphones, all of them gave the site good feedback. No bugs were found when the people carried out the tests.
  - ### Errors 
+   - I had a lot of problem with Codeanywhere, i had to go back to Gitpod 
    - I had a problem with the computer not choosing some selection buttons. This gave errors as you can see below. But after some help from my classmate Frank Arellano i got it sorted out by changing out several typos. Big thanks to Frank Arellano!
  ![Error message](./readme.images/error-image.png)
+   
  - ### Validator Testing
    - #### HTML
      - No errors were returned when passing through the official [W3C validator.](https://validator.w3.org/nu/#textarea) ![W3C validator](./readme.images/html-validator.png)

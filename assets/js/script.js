@@ -26,7 +26,7 @@ let game = () => {
 				movesLeft.innerText = `Moves Left: ${5-moves}`;
 				
 
-				const choiceNumber = Math.floor(Math.random()*5);
+				let choiceNumber = Math.floor(Math.random()*5);
 				let computerChoice = computerOptions[choiceNumber];
 
 				// check who wins
