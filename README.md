@@ -44,8 +44,28 @@
     ![JSHint validator](./readme.images/jshint-validator.png)
    - #### Lighthouse
    ![Lighthouse](./readme.images/lighthouse-test.png)
+## Technologies Used
+   - HTML 5
+   - CSS
+   - JavaScript
+   - Gitpod
+   - Github
+   - Codeanywhere
 ## Deployment
-   - 
+   - ### The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab.
+2. Once in Settings, navigate to the Pages tab on the left hand side.
+  
+3. Under Source, select the branch to master, then click save.
+  
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+![Deployment](./readme.images/deployment.png)
+## Credits
+- The game layout comes from pritishnagpal at www.geeksforgeeks.org
+- Game roules comes from [bigbangtheory.fandom.com](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+- Player vs Computer icons comes from [Font Awesome](https://fontawesome.com/)
+
+
 
 
 
