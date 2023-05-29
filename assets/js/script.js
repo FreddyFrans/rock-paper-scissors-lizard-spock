@@ -1,13 +1,13 @@
 
-// Big shoutout and and credit to pritishnagpal at www.geeksforgeeks.org for the code
-//game code
+// Big shoutout and and credit to pritishnagpal at www.geeksforgeeks.org 
+//Game
 let game = () => {
 	let playerScore = 0;
 	let computerScore = 0;
 	let moves = 0;
 
 
-	// Function to
+	// Function 
 	let playGame = () => {
 		let rockBtn = document.querySelector('.rock');
 		let paperBtn = document.querySelector('.paper');
@@ -42,6 +42,7 @@ let game = () => {
 	}
 
 	// Function to decide winner
+	//Credit to Frank Arellano at CI
 	let winner = (player,computer) => {
 		let result = document.querySelector('.result');
 		let playerScoreBoard = document.querySelector('.p-count');
