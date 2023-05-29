@@ -44,10 +44,12 @@
  ![Error message](./readme.images/error-image.png)
  - ### Validator Testing
    - #### HTML
-     - No errors were returned when passing through the official [W3C validator.](https://validator.w3.org/nu/#textarea) 
+     - No errors were returned when passing through the official [W3C validator.](https://validator.w3.org/nu/#textarea) ![W3C validator](./readme.images/html-validator.png)
+     
      
    - #### CSS
      - No errors were returned when passing through the official  [Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator#css)
+     ![Jigsaw validator](./readme.images/css-validator.png)
      
    - #### JavaScript
      - No errors were found when passing through the official Jshint validator
