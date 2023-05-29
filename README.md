@@ -28,3 +28,19 @@
   - I want to change to a more appropriate favicon that reflects the theme of the game.
 * ### Images and Layout
   - Experiment with other color combinations and layouts in the game, such as, for example, images on the buttons instead of text and fireworks when the player won the game.
+## Testing
+ - ### Errors 
+   - I had a problem with the computer not choosing some selection buttons. This gave errors as you can see below. But after some help from my classmate Frank Arellano i got it sorted out by changing out several typos. Big thanks to Frank Arellano!
+ ![Error message](./readme.images/error-image.png)
+ - ### Validator Testing
+   - #### HTML
+     - No errors were returned when passing through the official W3C validator testing. 
+     ![HTML validator](./readme.images/html-validator.png) 
+   - #### CSS
+     - No errors were returned when passing through the official Jigsaw validator testing.
+     ![CSS validator](./readme.images/css-validator.png)
+   - #### JavaScript
+     - No errors were found when passing through the official Jshint validator
+    ![JSHint validator](./readme.images/jshint-validator.png)
+    
+
