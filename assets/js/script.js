@@ -56,12 +56,17 @@ function game() {
 		}
 		else if(player == 'rock'){
 			if(computer == 'paper'){
-				result.textContent = 'Ohhh! Computer Chose Paper';
+				result.textContent = 'Bazinga Punk! I chose Paper!';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
+			}
+				else if(computer == 'spock') {
+					result.textContent = 'Bazinga Punk! I Chose Spock!';
+					computerScore++;
+					computerScoreBoard.textContent = computerScore;
+				}	
 			
-			
-			}else{
+			else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
@@ -69,10 +74,16 @@ function game() {
 		}
 		else if(player == 'scissors'){
 			if(computer == 'rock'){
-				result.textContent = 'Ohhh! Computer Chose Rock';
+				result.textContent = 'Bazinga Punk! I Chose Rock!';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
-			}else{
+			}
+				else if(computer == 'spock') {
+					result.textContent = 'Bazinga Punk! I Chose Spock!';
+					computerScore++;
+					computerScoreBoard.textContent = computerScore;
+				}
+			else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
@@ -80,10 +91,17 @@ function game() {
 		}
 		else if(player == 'paper'){
 			if(computer == 'scissors'){
-				result.textContent = 'Ohhh! Computer Chose Scissors';
+				result.textContent = 'Bazinga Punk! I Chose Scissors!';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
-			}else{
+			}
+			else if(computer == 'lizard') {
+					result.textContent = 'Bazinga Punk! I Chose Lizard!';
+					computerScore++;
+					computerScoreBoard.textContent = computerScore;
+			
+				}
+			else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
@@ -91,10 +109,16 @@ function game() {
 		}
 		else if(player == 'lizard'){
 			if(computer == 'rock'){
-				result.textContent = 'Ohhh! Computer Chose Rock';
+				result.textContent = 'Bazinga Punk! I Chose Rock!';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
-			}else{
+			}
+			else if(computer == 'scissors') {
+					result.textContent = 'Bazinga Punk! I Chose Scissors!';
+					computerScore++;
+					computerScoreBoard.textContent = computerScore;
+				}
+			else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
@@ -102,70 +126,22 @@ function game() {
 		}
 		else if(player == 'spock'){
 			if(computer == 'lizard'){
-				result.textContent = 'Ohhh! Computer Chose Lizard';
+				result.textContent = 'Bazinga Punk! I Chose Lizard!';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
-			}else{
+			}
+			else if(computer == 'paper') {
+				result.textContent = 'Bazinga Punk! I Chose Paper!';
+				computerScore++;
+				computerScoreBoard.textContent = computerScore;
+			}
+			else{
 				result.textContent = 'Yeay! You Won!';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
-		else if(player == 'scissors'){
-			if(computer == 'spock'){
-				result.textContent = 'Ohhh! Computer Chose Spock';
-				computerScore++;
-				computerScoreBoard.textContent = computerScore;
-			}else{
-				result.textContent = 'Yeay! You Won!';
-				playerScore++;
-				playerScoreBoard.textContent = playerScore;
-			}
-		}
-		else if(player == 'lizard'){
-			if(computer == 'scissors'){
-				result.textContent = 'Ohhh! Computer Chose Scissors';
-				computerScore++;
-				computerScoreBoard.textContent = computerScore;
-			}else{
-				result.textContent = 'Yeay! You Won!';
-				playerScore++;
-				playerScoreBoard.textContent = playerScore;
-			}
-		}
-		else if(player == 'paper'){
-			if(computer == 'lizard'){
-				result.textContent = 'Ohhh! Computer Chose Lizard';
-				computerScore++;
-				computerScoreBoard.textContent = computerScore;
-			}else{
-				result.textContent = 'Yeay! You Won!';
-				playerScore++;
-				playerScoreBoard.textContent = playerScore;
-			}
-		}
-		else if(player == 'spock'){
-			if(computer == 'paper'){
-				result.textContent = 'Ohhh! Computer Chose Paper';
-				computerScore++;
-				computerScoreBoard.textContent = computerScore;
-			}else{
-				result.textContent = 'Yeay! You Won!';
-				playerScore++;
-				playerScoreBoard.textContent = playerScore;
-			}
-		}
-		else if(player == 'rock'){
-			if(computer == 'spock'){
-				result.textContent = 'Ohhh! Computer Chose Spock';
-				computerScore++;
-				computerScoreBoard.textContent = computerScore;
-			}else{
-				result.textContent = 'Yeay! You Won!';
-				playerScore++;
-				playerScoreBoard.textContent = playerScore;
-			}
-		}
+		
 	};
 
 	// Game over function
