@@ -1,11 +1,21 @@
 # Rock, Paper, Scissors, Lizard & Spock
  ## Foreword
- I took on this challenge with no JavaScript knowledge whatsoever. Before the visitor try this game I want to give the credit to pritishnagpal at www.geeksforgeeks.org who gave me some more insight into how the structure of Javascript works.
+ I took on this challenge with no JavaScript knowledge what so ever. Before the visitor try this game I want to give the credit to pritishnagpal at www.geeksforgeeks.org who gave me some more insight into how the structure of Javascript works.
  So thank you very much pritishnagpal!
  ## The Game
  
- The Rock, Paper and Scissors game has three option buttons: rock, paper or scissors. When the player clicks on an option, a comment is displayed where you find out if the player or the computer won, or if it was a draw. You have five attempts before the game is over. You can then click on a button that appears if you want to try to play again.
+ The Rock, Paper, Scissors, Lizard and Spock game has five option buttons: rock, paper, scissors, Lizard and Spock. When the player clicks on an option, a comment is displayed where you find out if the player or the computer won, or if it was a draw. You have five attempts before the game is over. You can then click on a "Again!" button that appears if you want to try to play one more time.
+ ## [Rock, Paper, Scissors, Lizard & Spock](https://freddyfrans.github.io/rock-paper-scissors-lizard-spock/)
  ![Responsive](./readme.images/ami-responsive.png)
+ ## Navigation
+- [Features](#features)
+- [Features Left to Implement](#features-left-to-implement)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [General problem solving credits](#general-problem-solving-credits)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
