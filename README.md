@@ -93,7 +93,8 @@
 ## Acknowledgements
  ### The site was completed as a Portfolio 2 Project for the Full Stack Software Developer (e-Commerce) Diploma at the Code Institute.
    - I would like to thank Cohort Facilitator Alan Bushell, at Code Institute for the support in this project.
-   - Big thanks to my classmate Frank Arellano for code troubleshooting.
+   - Shoutout to my friend Kristofer Gabrielsson for tips and tricks.
+   - Big thanks to my classmate Frank Arellano for help with code troubleshooting.
    - Last but not least, pritishnagpal at www.geeksforgeeks.org who has given me more insight in JavaScript. Thank you!
 
 
