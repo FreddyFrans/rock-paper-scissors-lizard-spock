@@ -1,14 +1,14 @@
 
 // Big shoutout and and credit to pritishnagpal at www.geeksforgeeks.org 
 //Game
-let game = () => {
+function game() {
 	let playerScore = 0;
 	let computerScore = 0;
 	let moves = 0;
 
 
 	// Function 
-	let playGame = () => {
+	function playGame() {
 		let rockBtn = document.querySelector('.rock');
 		let paperBtn = document.querySelector('.paper');
 		let scissorsBtn = document.querySelector('.scissors');
@@ -43,7 +43,7 @@ let game = () => {
 
 	// Function to decide winner
 	//Credit to Frank Arellano at CI
-	let winner = (player,computer) => {
+	function winner(player,computer) {
 		let result = document.querySelector('.result');
 		let playerScoreBoard = document.querySelector('.p-count');
 		let computerScoreBoard = document.querySelector('.c-count');
@@ -169,7 +169,7 @@ let game = () => {
 	};
 
 	// Game over function
-	let gameOver = (playerOptions,movesLeft) => {
+	function gameOver(playerOptions,movesLeft) {
 
 		let chooseMove = document.querySelector('.move');
 		let result = document.querySelector('.result');
